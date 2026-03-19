@@ -1,0 +1,31 @@
+{
+    "id": "flexi_arm_v1",
+    "name": "Standard Flexi Arm",
+    "type": "parametric_arm",
+    "params": [
+        {
+            "name": "segments",
+            "label": "Segments",
+            "min": 2,
+            "max": 15,
+            "step": 1,
+            "default": 6
+        },
+        {
+            "name": "length",
+            "label": "Total Length",
+            "min": 2,
+            "max": 10,
+            "step": 0.5,
+            "default": 4
+        },
+        {
+            "name": "width",
+            "label": "Thickness",
+            "min": 0.5,
+            "max": 3,
+            "step": 0.1,
+            "default": 1
+        }
+    ]
+}
